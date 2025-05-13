@@ -18,16 +18,16 @@ An AI-powered movie recommendation system using **React** for the frontend and *
 
 ## 📁 Project Structure
 
-AI-Powered-Movie-Recommendation-System/
-│
-├── .venv/                  # Python virtual environment (optional to commit)
-├── frontend/               # React frontend
-│   ├── ...                 # React app code
-│
-├── instance/               # Flask instance config (optional)
-│
-├── app1.py                 # Main Flask backend file
-├── data.txt                # Text data used by the model
-├── movies.csv              # Movie metadata
-├── ratings.csv             # Ratings dataset
-├── requirements.txt.txt    # Python dependencies (rename this!)
+AI-Powered-Movie-Recommendation-System/<br>
+│<br>
+├── .venv/<br>                  # Python virtual environment (optional to commit)
+├── frontend/ <br>              # React frontend
+│   ├── ...       <br>          # React app code
+│<br>
+├── instance/ <br>              # Flask instance config (optional)
+│<br>
+├── app1.py<br>                 # Main Flask backend file
+├── data.txt   <br>             # Text data used by the model
+├── movies.csv     <br>         # Movie metadata
+├── ratings.csv        <br>     # Ratings dataset
+├── requirements.txt.txt   <br> # Python dependencies (rename this!)
