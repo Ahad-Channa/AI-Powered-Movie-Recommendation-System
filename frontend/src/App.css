@@ -1,0 +1,78 @@
+/* Make entire viewport a flex container */
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #222;
+  color: #ddd;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container styles */
+.container {
+  width: 100%;
+  max-width: 700px;
+  height: 50vh;
+  /* padding: 20px; */
+  text-align: center;
+}
+
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 60%;
+  min-width: 200px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background-color: #333;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+.movie-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.movie-item {
+  background-color: #333;
+  margin-bottom: 10px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
