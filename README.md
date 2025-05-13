@@ -1,42 +1,33 @@
-# 🎬 AI-Based Movie Recommendation System
+# 🎬 AI-Powered Movie Recommendation System
 
-An AI-powered movie recommendation system built using Flask that leverages **hybrid filtering** (collaborative + content-based techniques) to provide personalized movie suggestions. This system also integrates with the **TMDb API** to fetch movie posters and additional metadata, creating a rich user experience.
-
----
-
-## 🚀 Features
-
-- 🔍 **Hybrid Filtering**: Combines content-based and collaborative filtering.
-- 🧠 **Collaborative Filtering**: Uses user-item interactions for personalized recommendations.
-- 🧾 **Content-Based Filtering**: Recommends similar movies based on metadata like genre, cast, and crew.
-- 🖼️ **Movie Posters**: Fetches high-quality posters using TMDb API.
-- 💻 **Web Interface**: Clean and responsive front-end built with Flask and HTML/CSS.
-- 📂 **MovieLens Dataset**: Trained on publicly available MovieLens dataset.
+An AI-powered movie recommendation system using **React** for the frontend and **Flask** for the backend. It leverages **hybrid filtering** (collaborative + content-based), integrates the **TMDb API** for enhanced movie metadata (e.g., posters, overviews), and delivers intelligent, personalized suggestions.
 
 ---
 
-## 🛠️ Tech Stack
+## 🔧 Features
 
-- **Backend**: Python, Flask
-- **Recommendation Logic**: Scikit-learn, Pandas, NumPy, Surprise
-- **Frontend**: HTML, CSS, Bootstrap
-- **API**: TMDb API (for posters and movie info)
-- **Dataset**: [MovieLens Dataset (100k/1M)](https://grouplens.org/datasets/movielens/)
-
----
-
-## 📦 Installation & Usage
-
-### 🔧 Prerequisites
-
-- Python 3.7+
-- pip (Python package manager)
-- TMDb API Key (get it from [TMDb](https://www.themoviedb.org/settings/api))
+- 🧠 Hybrid Recommendation (Content + Collaborative filtering)
+- 🎬 TMDb Integration for movie posters and metadata
+- ⚛️ Modern React Frontend with dynamic movie display
+- 🐍 Flask Backend API
+- 📊 Trained on MovieLens dataset
+- 🔍 Search and filter functionality
+- 🎨 Clean UI with responsive design
 
 ---
 
-### ⚙️ Clone the Repository
+## 📁 Project Structure
 
-```bash
-git clone https://github.com/yourusername/movie-recommendation-system.git
-cd movie-recommendation-system
+AI-Powered-Movie-Recommendation-System/
+│
+├── .venv/                  # Python virtual environment (optional to commit)
+├── frontend/               # React frontend
+│   ├── ...                 # React app code
+│
+├── instance/               # Flask instance config (optional)
+│
+├── app1.py                 # Main Flask backend file
+├── data.txt                # Text data used by the model
+├── movies.csv              # Movie metadata
+├── ratings.csv             # Ratings dataset
+├── requirements.txt.txt    # Python dependencies (rename this!)
