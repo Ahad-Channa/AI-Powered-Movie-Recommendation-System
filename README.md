@@ -17,9 +17,11 @@ An AI-powered movie recommendation system using **React** for the frontend and *
 ---
 
 
----
+
 
 ## 🚀 Quick Start
+
+
 
 ### 🔗 Prerequisites
 
@@ -34,38 +36,41 @@ An AI-powered movie recommendation system using **React** for the frontend and *
 
 cd backend
 
-# Create virtual environment (optional but recommended)
+## Create virtual environment (optional but recommended)
 python -m venv venv
 source venv/bin/activate     # On Windows: venv\Scripts\activate
 
-# Install Python dependencies
+## Install Python dependencies
 pip install -r requirements.txt
 
-# Set TMDb API key
+## Set TMDb API key
 echo "TMDB_API_KEY=your_tmdb_key_here" > .env
 
-# Run Flask app
+## Run Flask app
 python app.py
+---
 
-#Dependencies(install)
+##Dependencies(install)
 pip install -r requirements.txt
 
+---
 
 ### 💻 frontend Setup (React)
 
 cd frontend
 
-# Install Node dependencies
+## Install Node dependencies
 npm install
 
-# Run React development server
+## Run React development server
 npm start
 
-#📚 Data Source
+##📚 Data Source
 This project uses the MovieLens dataset for collaborative filtering training.
 
+---
 
-#📈 Future Improvements
+##📈 Future Improvements
 - 🔐 User login/auth system
 - ⭐ Rating-based feedback
 - 🎥 Trailer previews via YouTube API
